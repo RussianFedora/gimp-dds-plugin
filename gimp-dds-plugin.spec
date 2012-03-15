@@ -1,6 +1,6 @@
 Name:           gimp-dds-plugin
 Version:        2.0.9
-Release:        1%{?dist}.R
+Release:        1%{?dist}
 Summary:        A plugin for GIMP allows you to load/save in the DDS format
 Summary(ru):    Плагин GIMP для работы с форматом DDS
 
