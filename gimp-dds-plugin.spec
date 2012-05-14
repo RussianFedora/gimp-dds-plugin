@@ -7,7 +7,7 @@ Summary(ru):    Плагин GIMP для работы с форматом DDS
 License:        GPLv2+
 URL:            http://code.google.com/p/gimp-dds/
 Source0:        http://gimp-dds.googlecode.com/files/gimp-dds-%{version}.tar.bz2
-Source100:      README.RFRemix
+
 
 BuildRequires:  gimp-devel >= 2.4.0
 BuildRequires:  pkgconfig
@@ -15,8 +15,8 @@ BuildRequires:  pkgconfig
 Requires:       gimp >= 2.4
 
 %description
-This is a plugin for GIMP version 2.6.x. It allows you to
-load and save images in the Direct Draw Surface (DDS) format.
+This is a plugin for GIMP. It allows you to load and save images in the
+Direct Draw Surface (DDS) format.
 
 %description -l ru
 Плагин для GIMP, помогающий загружать и сохранять изображения
@@ -30,7 +30,6 @@ load and save images in the Direct Draw Surface (DDS) format.
 %build
 sed -i 's|gimpui-2.0)|gimpui-2.0) -lm|' Makefile.linux
 make %{?_smp_mflags}
-cp %{SOURCE100} .
 
 
 %install
@@ -43,9 +42,12 @@ install dds $RPM_BUILD_ROOT$GIMP_PLUGINS_DIR/plug-ins
 %files
 %defattr(-,root,root,-)
 %{_libdir}/gimp/2.0/plug-ins/dds
-%doc COPYING LICENSE README README.RFRemix
+%doc COPYING LICENSE README
 
 
 %changelog
+* Mon Jan 30 2012 Vasiliy N. Glazov <vascom2@gmail.com> - 2.0.9-2.R
+- clean spec
+
 * Mon Jan 30 2012 Vasiliy N. Glazov <vascom2@gmail.com> - 2.0.9-1.R
 - initial release
