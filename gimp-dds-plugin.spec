@@ -46,7 +46,7 @@ install dds $RPM_BUILD_ROOT$GIMP_PLUGINS_DIR/plug-ins
 
 
 %changelog
-* Mon Jan 30 2012 Vasiliy N. Glazov <vascom2@gmail.com> - 2.0.9-2.R
+* Mon May 14 2012 Vasiliy N. Glazov <vascom2@gmail.com> - 2.0.9-2.R
 - clean spec
 
 * Mon Jan 30 2012 Vasiliy N. Glazov <vascom2@gmail.com> - 2.0.9-1.R
