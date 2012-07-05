@@ -28,7 +28,6 @@ Direct Draw Surface (DDS) format.
 
 
 %build
-sed -i 's|gimpui-2.0)|gimpui-2.0) -lm|' Makefile.linux
 make %{?_smp_mflags}
 
 
