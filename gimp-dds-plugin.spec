@@ -32,24 +32,16 @@ make %{?_smp_mflags}
 
 
 %install
-rm -rf $RPM_BUILD_ROOT
 GIMP_PLUGINS_DIR=`gimptool-2.0 --gimpplugindir`
 mkdir -p $RPM_BUILD_ROOT$GIMP_PLUGINS_DIR/plug-ins
 install dds $RPM_BUILD_ROOT$GIMP_PLUGINS_DIR/plug-ins
 
 
 %files
-%defattr(-,root,root,-)
 %{_libdir}/gimp/2.0/plug-ins/dds
 %doc COPYING LICENSE README
 
 
 %changelog
-* Tue Jul 03 2012 Vasiliy N. Glazov <vascom2@gmail.com> - 2.1.0-1.R
-- update to 2.1.0
-
-* Mon May 14 2012 Vasiliy N. Glazov <vascom2@gmail.com> - 2.0.9-2.R
-- clean spec
-
-* Mon Jan 30 2012 Vasiliy N. Glazov <vascom2@gmail.com> - 2.0.9-1.R
+* Fri Jul 13 2012 Vasiliy N. Glazov <vascom2@gmail.com> - 2.1.0-1
 - initial release
