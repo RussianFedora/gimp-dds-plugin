@@ -1,0 +1,210 @@
+diff -uNdr gimp-dds-2.1.0_orig/color.c gimp-dds-2.1.0/color.c
+--- gimp-dds-2.1.0_orig/color.c	2010-04-23 11:57:01.000000000 +0400
++++ gimp-dds-2.1.0/color.c	2012-07-13 09:16:52.356561710 +0400
+@@ -16,8 +16,8 @@
+ 
+ 	You should have received a copy of the GNU General Public License
+ 	along with this program; see the file COPYING.  If not, write to
+-	the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+-	Boston, MA 02111-1307, USA.
++	the Free Software Foundation, 51 Franklin Street, Fifth Floor
++	Boston, MA 02110-1301, USA.
+ */
+ 
+ #include <math.h>
+diff -uNdr gimp-dds-2.1.0_orig/color.h gimp-dds-2.1.0/color.h
+--- gimp-dds-2.1.0_orig/color.h	2010-05-13 12:30:35.000000000 +0400
++++ gimp-dds-2.1.0/color.h	2012-07-13 09:17:11.689997226 +0400
+@@ -16,8 +16,8 @@
+ 
+ 	You should have received a copy of the GNU General Public License
+ 	along with this program; see the file COPYING.  If not, write to
+-	the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+-	Boston, MA 02111-1307, USA.
++	the Free Software Foundation, 51 Franklin Street, Fifth Floor
++	Boston, MA 02110-1301, USA.
+ */
+ 
+ #ifndef COLOR_H
+diff -uNdr gimp-dds-2.1.0_orig/dds.c gimp-dds-2.1.0/dds.c
+--- gimp-dds-2.1.0_orig/dds.c	2010-04-24 04:44:35.000000000 +0400
++++ gimp-dds-2.1.0/dds.c	2012-07-13 09:17:00.289740104 +0400
+@@ -16,8 +16,8 @@
+ 
+ 	You should have received a copy of the GNU General Public License
+ 	along with this program; see the file COPYING.  If not, write to
+-	the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+-	Boston, MA 02111-1307, USA.
++	the Free Software Foundation, 51 Franklin Street, Fifth Floor
++	Boston, MA 02110-1301, USA.
+ */
+ 
+ #include <stdio.h>
+diff -uNdr gimp-dds-2.1.0_orig/dds.h gimp-dds-2.1.0/dds.h
+--- gimp-dds-2.1.0_orig/dds.h	2011-08-08 19:24:37.000000000 +0400
++++ gimp-dds-2.1.0/dds.h	2012-07-13 09:14:39.076603272 +0400
+@@ -16,8 +16,8 @@
+ 
+ 	You should have received a copy of the GNU General Public License
+ 	along with this program; see the file COPYING.  If not, write to
+-	the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+-	Boston, MA 02111-1307, USA.
++	the Free Software Foundation, 51 Franklin Street, Fifth Floor
++	Boston, MA 02110-1301, USA.
+ */
+ 
+ #ifndef DDS_H
+diff -uNdr gimp-dds-2.1.0_orig/ddsplugin.h gimp-dds-2.1.0/ddsplugin.h
+--- gimp-dds-2.1.0_orig/ddsplugin.h	2010-04-23 11:57:01.000000000 +0400
++++ gimp-dds-2.1.0/ddsplugin.h	2012-07-13 09:17:25.725313539 +0400
+@@ -16,8 +16,8 @@
+ 
+ 	You should have received a copy of the GNU General Public License
+ 	along with this program; see the file COPYING.  If not, write to
+-	the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+-	Boston, MA 02111-1307, USA.
++	the Free Software Foundation, 51 Franklin Street, Fifth Floor
++	Boston, MA 02110-1301, USA.
+ */
+ 
+ #ifndef __DDSPLUGIN_H
+diff -uNdr gimp-dds-2.1.0_orig/ddsread.c gimp-dds-2.1.0/ddsread.c
+--- gimp-dds-2.1.0_orig/ddsread.c	2012-05-04 05:56:39.000000000 +0400
++++ gimp-dds-2.1.0/ddsread.c	2012-07-13 09:17:39.980634564 +0400
+@@ -16,8 +16,8 @@
+ 
+ 	You should have received a copy of the GNU General Public License
+ 	along with this program; see the file COPYING.  If not, write to
+-	the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+-	Boston, MA 02111-1307, USA.
++	the Free Software Foundation, 51 Franklin Street, Fifth Floor
++	Boston, MA 02110-1301, USA.
+ */
+ 
+ /*
+diff -uNdr gimp-dds-2.1.0_orig/ddswrite.c gimp-dds-2.1.0/ddswrite.c
+--- gimp-dds-2.1.0_orig/ddswrite.c	2012-05-04 05:39:49.000000000 +0400
++++ gimp-dds-2.1.0/ddswrite.c	2012-07-13 09:17:50.550872458 +0400
+@@ -16,8 +16,8 @@
+ 
+ 	You should have received a copy of the GNU General Public License
+ 	along with this program; see the file COPYING.  If not, write to
+-	the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+-	Boston, MA 02111-1307, USA.
++	the Free Software Foundation, 51 Franklin Street, Fifth Floor
++	Boston, MA 02110-1301, USA.
+ */
+ 
+ #include <stdio.h>
+diff -uNdr gimp-dds-2.1.0_orig/dxt.c gimp-dds-2.1.0/dxt.c
+--- gimp-dds-2.1.0_orig/dxt.c	2012-05-04 05:37:58.000000000 +0400
++++ gimp-dds-2.1.0/dxt.c	2012-07-13 09:18:04.025175989 +0400
+@@ -16,8 +16,8 @@
+ 
+ 	You should have received a copy of the GNU General Public License
+ 	along with this program; see the file COPYING.  If not, write to
+-	the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+-	Boston, MA 02111-1307, USA.
++	the Free Software Foundation, 51 Franklin Street, Fifth Floor
++	Boston, MA 02110-1301, USA.
+ */
+ 
+ /*
+diff -uNdr gimp-dds-2.1.0_orig/dxt.h gimp-dds-2.1.0/dxt.h
+--- gimp-dds-2.1.0_orig/dxt.h	2010-05-05 12:55:10.000000000 +0400
++++ gimp-dds-2.1.0/dxt.h	2012-07-13 09:18:16.570458884 +0400
+@@ -16,8 +16,8 @@
+ 
+ 	You should have received a copy of the GNU General Public License
+ 	along with this program; see the file COPYING.  If not, write to
+-	the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+-	Boston, MA 02111-1307, USA.
++	the Free Software Foundation, 51 Franklin Street, Fifth Floor
++	Boston, MA 02110-1301, USA.
+ */
+ 
+ #ifndef DXT_H
+diff -uNdr gimp-dds-2.1.0_orig/endian.h gimp-dds-2.1.0/endian.h
+--- gimp-dds-2.1.0_orig/endian.h	2010-08-10 12:11:24.000000000 +0400
++++ gimp-dds-2.1.0/endian.h	2012-07-13 09:18:29.829757662 +0400
+@@ -16,8 +16,8 @@
+ 
+ 	You should have received a copy of the GNU General Public License
+ 	along with this program; see the file COPYING.  If not, write to
+-	the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+-	Boston, MA 02111-1307, USA.
++	the Free Software Foundation, 51 Franklin Street, Fifth Floor
++	Boston, MA 02110-1301, USA.
+ */
+ 
+ #ifndef ENDIAN_H
+diff -uNdr gimp-dds-2.1.0_orig/imath.h gimp-dds-2.1.0/imath.h
+--- gimp-dds-2.1.0_orig/imath.h	2010-04-30 09:12:01.000000000 +0400
++++ gimp-dds-2.1.0/imath.h	2012-07-13 09:18:40.316993831 +0400
+@@ -16,8 +16,8 @@
+ 
+ 	You should have received a copy of the GNU General Public License
+ 	along with this program; see the file COPYING.  If not, write to
+-	the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+-	Boston, MA 02111-1307, USA.
++	the Free Software Foundation, 51 Franklin Street, Fifth Floor
++	Boston, MA 02110-1301, USA.
+ */
+ 
+ #ifndef IMATH_H
+diff -uNdr gimp-dds-2.1.0_orig/mipmap.c gimp-dds-2.1.0/mipmap.c
+--- gimp-dds-2.1.0_orig/mipmap.c	2011-08-08 19:24:48.000000000 +0400
++++ gimp-dds-2.1.0/mipmap.c	2012-07-13 09:18:54.926322633 +0400
+@@ -16,8 +16,8 @@
+ 
+ 	You should have received a copy of the GNU General Public License
+ 	along with this program; see the file COPYING.  If not, write to
+-	the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+-	Boston, MA 02111-1307, USA.
++	the Free Software Foundation, 51 Franklin Street, Fifth Floor
++	Boston, MA 02110-1301, USA.
+ */
+ 
+ #include <string.h>
+diff -uNdr gimp-dds-2.1.0_orig/mipmap.h gimp-dds-2.1.0/mipmap.h
+--- gimp-dds-2.1.0_orig/mipmap.h	2010-04-23 11:57:01.000000000 +0400
++++ gimp-dds-2.1.0/mipmap.h	2012-07-13 09:19:03.211509021 +0400
+@@ -16,8 +16,8 @@
+ 
+ 	You should have received a copy of the GNU General Public License
+ 	along with this program; see the file COPYING.  If not, write to
+-	the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+-	Boston, MA 02111-1307, USA.
++	the Free Software Foundation, 51 Franklin Street, Fifth Floor
++	Boston, MA 02110-1301, USA.
+ */
+ 
+ #ifndef MIPMAP_H
+diff -uNdr gimp-dds-2.1.0_orig/misc.c gimp-dds-2.1.0/misc.c
+--- gimp-dds-2.1.0_orig/misc.c	2010-04-23 11:57:01.000000000 +0400
++++ gimp-dds-2.1.0/misc.c	2012-07-13 09:19:17.593833086 +0400
+@@ -16,8 +16,8 @@
+ 
+ 	You should have received a copy of the GNU General Public License
+ 	along with this program; see the file COPYING.  If not, write to
+-	the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+-	Boston, MA 02111-1307, USA.
++	the Free Software Foundation, 51 Franklin Street, Fifth Floor
++	Boston, MA 02110-1301, USA.
+ */
+ 
+ #include <libgimp/gimp.h>
+diff -uNdr gimp-dds-2.1.0_orig/misc.h gimp-dds-2.1.0/misc.h
+--- gimp-dds-2.1.0_orig/misc.h	2010-04-23 11:57:01.000000000 +0400
++++ gimp-dds-2.1.0/misc.h	2012-07-13 09:19:27.007045057 +0400
+@@ -16,8 +16,8 @@
+ 
+ 	You should have received a copy of the GNU General Public License
+ 	along with this program; see the file COPYING.  If not, write to
+-	the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+-	Boston, MA 02111-1307, USA.
++	the Free Software Foundation, 51 Franklin Street, Fifth Floor
++	Boston, MA 02110-1301, USA.
+ */
+ 
+ #ifndef MISC_H
