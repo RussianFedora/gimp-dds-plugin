@@ -1,6 +1,6 @@
 Name:           gimp-dds-plugin
 Version:        2.2.1
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        A plugin for GIMP allows you to load/save in the DDS format
 Summary(ru):    Плагин GIMP для работы с форматом DDS
 
@@ -10,7 +10,6 @@ Source0:        http://gimp-dds.googlecode.com/files/gimp-dds-%{version}.tar.bz2
 
 
 BuildRequires:  gimp-devel >= 2.4.0
-BuildRequires:  pkgconfig
 
 Requires:       gimp >= 2.4
 
@@ -38,11 +37,15 @@ install dds $RPM_BUILD_ROOT$GIMP_PLUGINS_DIR/plug-ins
 
 
 %files
+%dir %{_libdir}/gimp/2.0/plug-ins/
 %{_libdir}/gimp/2.0/plug-ins/dds
 %doc COPYING LICENSE README
 
 
 %changelog
+* Mon Jul 16 2012 Vasiliy N. Glazov <vascom2@gmail.com> - 2.2.1-2
+- Corrected BR and filelist
+
 * Mon Jul 16 2012 Vasiliy N. Glazov <vascom2@gmail.com> - 2.2.1-1
 - update to 2.2.1
 
