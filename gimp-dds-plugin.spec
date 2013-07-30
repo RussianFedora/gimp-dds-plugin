@@ -37,14 +37,13 @@ install dds $RPM_BUILD_ROOT$GIMP_PLUGINS_DIR/plug-ins
 
 
 %files
-%dir %{_libdir}/gimp/2.0/plug-ins/
 %{_libdir}/gimp/2.0/plug-ins/dds
 %doc COPYING LICENSE README
 
 
 %changelog
 * Mon Jul 16 2012 Vasiliy N. Glazov <vascom2@gmail.com> - 2.2.1-2
-- Corrected BR and filelist
+- Corrected BR
 
 * Mon Jul 16 2012 Vasiliy N. Glazov <vascom2@gmail.com> - 2.2.1-1
 - update to 2.2.1
