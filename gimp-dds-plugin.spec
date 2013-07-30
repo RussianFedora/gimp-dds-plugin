@@ -1,6 +1,6 @@
 Name:           gimp-dds-plugin
 Version:        2.2.1
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        A plugin for GIMP allows you to load/save in the DDS format
 Summary(ru):    Плагин GIMP для работы с форматом DDS
 
@@ -24,9 +24,12 @@ Direct Draw Surface (DDS) format.
 
 %prep
 %setup -q -n gimp-dds-%{version}
-
+sed -i -e 's/CFLAGS.*/& $(shell echo $$CFLAGS)/' Makefile
+echo '#!/bin/bash' > configure
+chmod +x configure
 
 %build
+%configure
 make %{?_smp_mflags}
 
 
@@ -42,6 +45,9 @@ install dds $RPM_BUILD_ROOT$GIMP_PLUGINS_DIR/plug-ins
 
 
 %changelog
+* Mon Jul 16 2012 Vasiliy N. Glazov <vascom2@gmail.com> - 2.2.1-3
+- Corrected make CFLAGS
+
 * Mon Jul 16 2012 Vasiliy N. Glazov <vascom2@gmail.com> - 2.2.1-2
 - Corrected BR
 
